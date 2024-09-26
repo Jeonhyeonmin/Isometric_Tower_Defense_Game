@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 69c3351a53bd83143b044a8f66cda7f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/pause_alternative/pause_alternative_disabled.anim
+  uploadId: 559104

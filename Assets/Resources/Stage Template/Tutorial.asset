@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fdadfb9e5d9d7a46a08d674014edd5a, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  difficulty: 1
+  stageUIName: "\uD29C\uD1A0\uB9AC\uC5BC"
+  StageDeveloperName: Tutorial
+  easyWaves:
+  - enemyPrefab:
+    - {fileID: 8514565087666891090, guid: 96524439a95cf4444b34b2a82a5e2324, type: 3}
+    enemyCount: 3
+    enemySpawnRate: 2
+  - enemyPrefab:
+    - {fileID: 8514565087666891090, guid: e6c0bddf64b45f842a66aa0a904ca0c3, type: 3}
+    enemyCount: 2
+    enemySpawnRate: 3
+  normalWaves:
+  - enemyPrefab:
+    - {fileID: 8514565087666891090, guid: 623a30f79fc1a224b8e2b4fdf6a449ba, type: 3}
+    - {fileID: 8514565087666891090, guid: 623a30f79fc1a224b8e2b4fdf6a449ba, type: 3}
+    enemyCount: 8
+    enemySpawnRate: 0
+  - enemyPrefab: []
+    enemyCount: 0
+    enemySpawnRate: 0
+  hardWaves: []

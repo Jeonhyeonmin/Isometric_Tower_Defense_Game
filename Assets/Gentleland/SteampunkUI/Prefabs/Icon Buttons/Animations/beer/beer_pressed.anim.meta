@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9bf8de4c620cd324e97eb711e6fb7d1e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/beer/beer_pressed.anim
+  uploadId: 559104

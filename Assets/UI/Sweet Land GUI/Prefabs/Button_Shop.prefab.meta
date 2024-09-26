@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 254352ac83cce7844912efbd61e47ccc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Button_Shop.prefab
+  uploadId: 467214

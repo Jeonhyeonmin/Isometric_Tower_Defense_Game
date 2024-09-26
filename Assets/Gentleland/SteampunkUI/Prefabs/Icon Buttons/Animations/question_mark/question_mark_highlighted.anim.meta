@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f0bf4eb52fc4f343a20efb75be88b2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/question_mark/question_mark_highlighted.anim
+  uploadId: 559104

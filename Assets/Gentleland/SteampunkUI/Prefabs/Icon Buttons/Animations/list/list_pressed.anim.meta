@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 77dbf0d2f7693f341a2759fb904c0ea6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/list/list_pressed.anim
+  uploadId: 559104

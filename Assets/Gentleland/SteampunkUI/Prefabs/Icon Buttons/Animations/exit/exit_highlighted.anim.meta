@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86fe020a75230214392461cba730aae8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/exit/exit_highlighted.anim
+  uploadId: 559104

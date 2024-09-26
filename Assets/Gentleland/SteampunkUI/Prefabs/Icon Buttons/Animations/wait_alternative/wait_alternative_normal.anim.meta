@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bed891b6a03ea6843ae2f5b8ddfd8232
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/wait_alternative/wait_alternative_normal.anim
+  uploadId: 559104

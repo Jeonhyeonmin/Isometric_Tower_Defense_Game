@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f30a76e5bb728d749917c7fdc9696885
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Toggle.prefab
+  uploadId: 467214

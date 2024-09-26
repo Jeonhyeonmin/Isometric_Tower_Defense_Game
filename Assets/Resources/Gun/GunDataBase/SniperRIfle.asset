@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bd790431bb4504a89a5dc2b3e22b0a, type: 3}
+  m_Name: SniperRIfle
+  m_EditorClassIdentifier: 
+  databaseName: SniperRifles
+  gunTypeName: CURRENT SNIPERRIFLE
+  guns:
+  - {fileID: 11400000, guid: 68254db817d60c6428fc70cac182cc63, type: 2}

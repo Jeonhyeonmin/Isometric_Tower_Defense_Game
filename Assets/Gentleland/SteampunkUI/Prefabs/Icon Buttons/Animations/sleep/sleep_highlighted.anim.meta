@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a6dbe5b25d59c594c95cc8b266bb7424
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/sleep/sleep_highlighted.anim
+  uploadId: 559104

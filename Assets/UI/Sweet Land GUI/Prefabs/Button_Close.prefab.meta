@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6d6e6e690a5820a4a97763552486b8e5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Button_Close.prefab
+  uploadId: 467214

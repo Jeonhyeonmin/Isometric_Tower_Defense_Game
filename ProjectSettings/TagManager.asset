@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - EnemyLine
+  - TowerPlace
+  - Enemy
+  - Canvas
+  - Tower
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - TowerPlace
+  - Arrow
+  - Flag
+  - Tower
+  - Soldier
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground & Roads
+    uniqueID: 94026681
+    locked: 0
+  - name: Enemy
+    uniqueID: 1924693727
+    locked: 0
+  - name: Villages
+    uniqueID: 451146177
+    locked: 0
+  - name: Tower
+    uniqueID: 1015987397
+    locked: 0
+  - name: BG
+    uniqueID: 557641873
+    locked: 0
+  - name: Test
+    uniqueID: 3700263313
+    locked: 0
+  - name: User Interface
+    uniqueID: 2098962389
+    locked: 0
+  m_RenderingLayers:
+  - Default

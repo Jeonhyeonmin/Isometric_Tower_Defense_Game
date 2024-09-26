@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6c14d9143b61d468d26bb04c64c97a, type: 3}
+  m_Name: Wizard_Tower
+  m_EditorClassIdentifier: 
+  weaponProperties:
+  - sprite: {fileID: 7791214535279931073, guid: 19f90eb1c2478a440995b0835a4dbd5e, type: 3}
+    name: "\uC704\uC800\uB4DC\uD0C0\uC6CC 1\uB808\uBCA8"
+    towerType: 2
+    upgradeCost: 2500
+    damage: 15
+    support: 0.3
+    range: 3
+    rate: 1
+  - sprite: {fileID: 8302129328904623997, guid: bed189ca07fff8549bf81af65f3db874, type: 3}
+    name: "\uC704\uC800\uB4DC\uD0C0\uC6CC 2\uB808\uBCA8"
+    towerType: 2
+    upgradeCost: 5100
+    damage: 25
+    support: 0.7
+    range: 4
+    rate: 0.8
+  - sprite: {fileID: -9189023498879117399, guid: 646827e4e492cee43b92ef0dccfa6b89, type: 3}
+    name: "\uC704\uC800\uB4DC\uD0C0\uC6CC 3\uB808\uBCA8"
+    towerType: 2
+    upgradeCost: 7200
+    damage: 36
+    support: 0.9
+    range: 4
+    rate: 0.6

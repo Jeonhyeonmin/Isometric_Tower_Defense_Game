@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3d760d60dae2f3408db1f73a03d5eeb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/pause_alternative/pause_alternative_pressed.anim
+  uploadId: 559104

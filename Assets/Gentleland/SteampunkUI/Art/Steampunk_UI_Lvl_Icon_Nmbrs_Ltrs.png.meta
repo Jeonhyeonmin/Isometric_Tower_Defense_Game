@@ -1,0 +1,1216 @@
+fileFormatVersion: 2
+guid: 2a074b3b141f32f4e8abeb83cb9e231f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs.png
+  uploadId: 559104
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1493191071480523210
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_6
+  - first:
+      213: -3420069868775723228
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_13
+  - first:
+      213: 5850339639688258312
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_24
+  - first:
+      213: -880674876031457209
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_27
+  - first:
+      213: -4419781093917103727
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_12
+  - first:
+      213: -2679631264932870170
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_29
+  - first:
+      213: -5291777911465187339
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_18
+  - first:
+      213: -5096845853063368743
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_39
+  - first:
+      213: -35330246918993485
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_30
+  - first:
+      213: 3778235013355795352
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_31
+  - first:
+      213: -2082955441078430534
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_3
+  - first:
+      213: 2492104690626832231
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_10
+  - first:
+      213: 6369846123846453502
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_25
+  - first:
+      213: 3201187216959622192
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_37
+  - first:
+      213: -9144069051318328055
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_33
+  - first:
+      213: 3229090618205305890
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_38
+  - first:
+      213: 789329991666892075
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_40
+  - first:
+      213: -6548443136736984356
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_8
+  - first:
+      213: -2522071033218897004
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_20
+  - first:
+      213: 1750391620752442210
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_21
+  - first:
+      213: -8837793672618419463
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_28
+  - first:
+      213: -8261586732516225101
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_19
+  - first:
+      213: 220445061210062281
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_32
+  - first:
+      213: 111998604529861187
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_36
+  - first:
+      213: -8361020145659168480
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_26
+  - first:
+      213: 8054999783658563491
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_4
+  - first:
+      213: 3568120661864194315
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_5
+  - first:
+      213: -3418854547045285666
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_17
+  - first:
+      213: 2536810513971390204
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_15
+  - first:
+      213: 2908592236624182801
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_1
+  - first:
+      213: 7942458814390890394
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_11
+  - first:
+      213: -1663591504370042298
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_7
+  - first:
+      213: -6826831186250956815
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_0
+  - first:
+      213: -9200920838161468504
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_22
+  - first:
+      213: -1658651887462659250
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_14
+  - first:
+      213: -9112342071583121698
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_23
+  - first:
+      213: -1619872287464233621
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_9
+  - first:
+      213: -2133409401568699814
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_16
+  - first:
+      213: 7708930032001437799
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_2
+  - first:
+      213: 4015781989760561839
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_34
+  - first:
+      213: 4009934229724802261
+    second: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 758
+        width: 215
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fff3f9c4393241a0800000000000000
+      internalID: -6826831186250956815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 750
+        width: 215
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e71749a356d5820800000000000000
+      internalID: 2908592236624182801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 802
+        width: 195
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76059cb350f9bfa60800000000000000
+      internalID: 7708930032001437799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_3
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 787
+        width: 255
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 59, y: 77, z: 56, w: 73}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab49d83ff0bd713e0800000000000000
+      internalID: -2082955441078430534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_4
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 742
+        width: 271
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a721d240ab19cf60800000000000000
+      internalID: 8054999783658563491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 563
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01a52656d2848130800000000000000
+      internalID: 3568120661864194315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 561
+        width: 42
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6365e9ab1ae174be0800000000000000
+      internalID: -1493191071480523210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 561
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a7aa2475cb9e8e0800000000000000
+      internalID: -1663591504370042298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 565
+        width: 47
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd282fa89a14f15a0800000000000000
+      internalID: -6548443136736984356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_10
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 561
+        width: 47
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767a5eb230cb59220800000000000000
+      internalID: 2492104690626832231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_11
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 563
+        width: 59
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f60f2f538493e60800000000000000
+      internalID: 7942458814390890394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_12
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 562
+        width: 58
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19965181388c9a2c0800000000000000
+      internalID: -4419781093917103727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_13
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 565
+        width: 47
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f2b9c13987980d0800000000000000
+      internalID: -3420069868775723228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_14
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 566
+        width: 59
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bc1c175e84bf8e0800000000000000
+      internalID: -1658651887462659250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_9
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 566
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65e13cacbe0589e0800000000000000
+      internalID: -1619872287464233621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 363
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6adbbc8bf843320800000000000000
+      internalID: 2536810513971390204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 359
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ad40bd37b9462e0800000000000000
+      internalID: -2133409401568699814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 356
+        width: 52
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed003a047e9cd80d0800000000000000
+      internalID: -3418854547045285666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_18
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 361
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7ebdcc604df86b0800000000000000
+      internalID: -5291777911465187339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_19
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 362
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf4a4773a2f85d80800000000000000
+      internalID: -8261586732516225101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_20
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 357
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b6faef1cdcffcd0800000000000000
+      internalID: -2522071033218897004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 361
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26305c4b7e3aa4810800000000000000
+      internalID: 1750391620752442210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_22
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 367
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a375ea0f33cf4080800000000000000
+      internalID: -9200920838161468504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_23
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 368
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eded0774a257a8180800000000000000
+      internalID: -9112342071583121698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_24
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 363
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8036107e7e4903150800000000000000
+      internalID: 5850339639688258312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_25
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 357
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef844cdfc4d366850800000000000000
+      internalID: 6369846123846453502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 209
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029b912e970b7fb80800000000000000
+      internalID: -8361020145659168480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_27
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 205
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748a883cdd637c3f0800000000000000
+      internalID: -880674876031457209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_28
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 214
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa5269ba79d95580800000000000000
+      internalID: -8837793672618419463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_29
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 221
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e745a4df8900dad0800000000000000
+      internalID: -2679631264932870170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_30
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 217
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9019ed35b728ff0800000000000000
+      internalID: -35330246918993485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_31
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 211
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893f3090abcfe6430800000000000000
+      internalID: 3778235013355795352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_32
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 215
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd3aed7d9d2f0300800000000000000
+      internalID: 220445061210062281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_33
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 214
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905278a25adb91180800000000000000
+      internalID: -9144069051318328055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_34
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 212
+        width: 93
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f613717ceab730800000000000000
+      internalID: 4015781989760561839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_35
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 204
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2d67bfe526a730800000000000000
+      internalID: 4009934229724802261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_36
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 79
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342875e2326ed8100800000000000000
+      internalID: 111998604529861187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_37
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 79
+        width: 99
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c466e20d6ec6c20800000000000000
+      internalID: 3201187216959622192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_38
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 82
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c7cad0fc800dc20800000000000000
+      internalID: 3229090618205305890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_39
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 75
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df2c3d63bd5449b0800000000000000
+      internalID: -5096845853063368743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_40
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 79
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dfdd3027344fa00800000000000000
+      internalID: 789329991666892075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_0: -6826831186250956815
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_1: 2908592236624182801
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_10: 2492104690626832231
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_11: 7942458814390890394
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_12: -4419781093917103727
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_13: -3420069868775723228
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_14: -1658651887462659250
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_15: 2536810513971390204
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_16: -2133409401568699814
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_17: -3418854547045285666
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_18: -5291777911465187339
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_19: -8261586732516225101
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_2: 7708930032001437799
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_20: -2522071033218897004
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_21: 1750391620752442210
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_22: -9200920838161468504
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_23: -9112342071583121698
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_24: 5850339639688258312
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_25: 6369846123846453502
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_26: -8361020145659168480
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_27: -880674876031457209
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_28: -8837793672618419463
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_29: -2679631264932870170
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_3: -2082955441078430534
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_30: -35330246918993485
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_31: 3778235013355795352
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_32: 220445061210062281
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_33: -9144069051318328055
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_34: 4015781989760561839
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_35: 4009934229724802261
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_36: 111998604529861187
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_37: 3201187216959622192
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_38: 3229090618205305890
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_39: -5096845853063368743
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_4: 8054999783658563491
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_40: 789329991666892075
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_5: 3568120661864194315
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_6: -1493191071480523210
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_7: -1663591504370042298
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_8: -6548443136736984356
+      Steampunk_UI_Lvl_Icon_Nmbrs_Ltrs_9: -1619872287464233621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

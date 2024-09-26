@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2edea1718484a7f489a4515d6ceed1cf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/bug/bug_highlighted.anim
+  uploadId: 559104

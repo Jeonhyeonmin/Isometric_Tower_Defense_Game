@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd9d2a18096264f43a32f421f79c9caf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/sleep/sleep_disabled.anim
+  uploadId: 559104

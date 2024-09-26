@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51a80e8cf7a986448911cf42d67ff07f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Loading_Ad_Fail.prefab
+  uploadId: 467214

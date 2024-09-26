@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 88d25df9e9b5e824fa32257fb79345cb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs
+  uploadId: 559104

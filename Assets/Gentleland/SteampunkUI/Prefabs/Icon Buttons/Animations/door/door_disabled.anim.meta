@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55641ed69da577f41a57a417be9fb7b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/door/door_disabled.anim
+  uploadId: 559104

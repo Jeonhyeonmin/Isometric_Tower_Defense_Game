@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d87ee68e68ab80d4b845259bdf1c3d18
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Fonts/RobotoSlab/LICENSE.txt
+  uploadId: 559104

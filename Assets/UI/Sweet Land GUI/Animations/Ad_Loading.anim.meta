@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c7c944576475fe048a7daf0c65eccda7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Animations/Ad_Loading.anim
+  uploadId: 467214

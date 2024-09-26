@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66e31caf2faf88c46b036e905d7b1674
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/door/door_pressed.anim
+  uploadId: 559104

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe3ea61f4f45a18488eef2095e0403db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/gear_2/gear_2_disabled.anim
+  uploadId: 559104

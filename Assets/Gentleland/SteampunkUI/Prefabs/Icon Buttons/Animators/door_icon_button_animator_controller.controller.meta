@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e921aaae04484441bccb3439a4b7d93
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animators/door_icon_button_animator_controller.controller
+  uploadId: 559104
