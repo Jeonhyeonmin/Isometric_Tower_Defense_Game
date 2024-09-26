@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd32e54a221658742b8cb820de7c7177
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/sleep/sleep_pressed.anim
+  uploadId: 559104

@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: dc0954a3cfafc5e468d9bdd4e7ce95d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6036146622879419313
+    second: Ellipse 2_0
+  - first:
+      213: -3033721239337000400
+    second: Ellipse 2_1
+  - first:
+      213: -1567687963519346590
+    second: Ellipse 2_2
+  - first:
+      213: 917906141950606492
+    second: Ellipse 2_3
+  - first:
+      213: 1232452731706629003
+    second: Ellipse 2_4
+  - first:
+      213: 5215451715598272525
+    second: Ellipse 2_5
+  - first:
+      213: 3144862569650355945
+    second: Ellipse 2_6
+  - first:
+      213: -7608965573612363441
+    second: Ellipse 2_7
+  - first:
+      213: 244050480961047660
+    second: Ellipse 2_8
+  - first:
+      213: 8269478042919728436
+    second: Ellipse 2_9
+  - first:
+      213: 8024569139745292140
+    second: Ellipse 2_10
+  - first:
+      213: -6374513417592259968
+    second: Ellipse 2_11
+  - first:
+      213: -1987147798000247440
+    second: Ellipse 2_12
+  - first:
+      213: 8306185612770595061
+    second: Ellipse 2_13
+  - first:
+      213: -2723976011424733627
+    second: Ellipse 2_14
+  - first:
+      213: 4299237315504558506
+    second: Ellipse 2_15
+  - first:
+      213: -8494807816079094225
+    second: Ellipse 2_16
+  - first:
+      213: -1504841854339649071
+    second: Ellipse 2_17
+  - first:
+      213: -1874679244449948039
+    second: Ellipse 2_18
+  - first:
+      213: 6032302833315810222
+    second: Ellipse 2_19
+  - first:
+      213: -6842740117249030023
+    second: Ellipse 2_20
+  - first:
+      213: 4650285006194029082
+    second: Ellipse 2_21
+  - first:
+      213: 3898910486501240216
+    second: Ellipse 2_22
+  - first:
+      213: -3761073929705621920
+    second: Ellipse 2_23
+  - first:
+      213: 5749446833695453573
+    second: Ellipse 2_24
+  - first:
+      213: -4436838389345032086
+    second: Ellipse 2_25
+  - first:
+      213: -8195102042962233833
+    second: Ellipse 2_26
+  - first:
+      213: 6239320617875810962
+    second: Ellipse 2_27
+  - first:
+      213: -5514722816942817482
+    second: Ellipse 2_28
+  - first:
+      213: 4800061483146550937
+    second: Ellipse 2_29
+  - first:
+      213: -3174137451168288005
+    second: Ellipse 2_30
+  - first:
+      213: -8110917318434414737
+    second: Ellipse 2_31
+  - first:
+      213: -8936969981575337418
+    second: Ellipse 2_32
+  - first:
+      213: -9162886830352619284
+    second: Ellipse 2_33
+  - first:
+      213: -848752687517729126
+    second: Ellipse 2_34
+  - first:
+      213: -1726614498049771617
+    second: Ellipse 2_35
+  - first:
+      213: -4461049311684381409
+    second: Ellipse 2_36
+  - first:
+      213: -7329586480042944923
+    second: Ellipse 2_37
+  - first:
+      213: -2806731670027758492
+    second: Ellipse 2_38
+  - first:
+      213: 7125586837627257218
+    second: Ellipse 2_39
+  - first:
+      213: -3214925801003681846
+    second: Ellipse 2_40
+  - first:
+      213: 2644993826654537986
+    second: Ellipse 2_41
+  - first:
+      213: 8469335391675582751
+    second: Ellipse 2_42
+  - first:
+      213: -5836116822999905183
+    second: Ellipse 2_43
+  - first:
+      213: 5138930392106865864
+    second: Ellipse 2_44
+  - first:
+      213: 1540268238878736232
+    second: Ellipse 2_45
+  - first:
+      213: -525625122573889983
+    second: Ellipse 2_46
+  - first:
+      213: -5204272403873114774
+    second: Ellipse 2_47
+  - first:
+      213: 2858552399584427486
+    second: Ellipse 2_48
+  - first:
+      213: -2913936118105296350
+    second: Ellipse 2_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ellipse 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 294
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b42e06819417f0478469b7f17aba90a
+      internalID: 1608916627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d93e03e825b0a1d4e806593c04630db4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ellipse 2_0: 1608916627
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

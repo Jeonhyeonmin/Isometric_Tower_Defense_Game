@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 141accf72ff8b7b42a36a0fd234e3f15
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Animations/Gold.controller
+  uploadId: 467214

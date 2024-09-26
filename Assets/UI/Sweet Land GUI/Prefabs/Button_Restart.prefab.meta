@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 59f1ce32ecdd8c649bf59285efe7e527
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Button_Restart.prefab
+  uploadId: 467214

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ac59b8d6c1c1e14a9e24a2c050b9d16
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/list/list_normal.anim
+  uploadId: 559104

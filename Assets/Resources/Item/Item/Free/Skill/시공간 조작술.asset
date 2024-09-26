@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3acb3b981d2889049b52b55ea8ff8c38, type: 3}
+  m_Name: "\uC2DC\uACF5\uAC04 \uC870\uC791\uC220"
+  m_EditorClassIdentifier: 
+  itemName: "\uC2DC\uACF5\uAC04 \uC870\uC791\uC220"
+  price: 0
+  currencyType: 0
+  SkillIcon: {fileID: -1738917918235489153, guid: 274bd564d0c6b934f8cedfe443f7907d, type: 3}
+  description: "\uC2A4\uD0AC \uC8FC\uC704\uC758 \uC2DC\uACF5\uAC04\uC5D0 \uC545\uC601\uD5A5\uC744
+    \uB07C\uCE58\uB294 \uC2A4\uD0AC\uC774\uB2E4.\\n\uC774\uB85C \uC778\uD574 \uC2A4\uD0AC\uC758
+    \uC8FC\uBCC0\uC5D0 \uC788\uB294\\n\uBAAC\uC2A4\uD130\uB4E4\uC740 \uB208 \uAE5C\uC9DD\uD560
+    \uC0AC\uC774\uC5D0 \uC0AC\uB77C\uC838 \uBC84\uB9AC\uACE0 \uB9CC\uB2E4.\\n\uBC94\uC704\uB294
+    \uD06C\uC9C0 \uC54A\uC9C0\uB9CC \uBC94\uC704 \uC548\uC5D0 \uC788\uB2E4\uBA74\\n\uADF8
+    \uC5B4\uB5A4 \uBAAC\uC2A4\uD130\uB3C4 \uD53C\uD574\uAC08 \uC218 \uC5C6\uC744
+    \uAC83\uC774\uB2E4.\\n\uD558\uC9C0\uB9CC \uBC94\uC704 \uC548\uC5D0 \uC788\uB294
+    \uD0C0\uC6CC\uB4E4\uB3C4 \uD53C\uD574\uAC00\\n\uAC08 \uC218 \uC788\uAE30 \uB54C\uBB38\uC5D0
+    \uC8FC\uC758\uD558\uBA70 \uC0AC\uC6A9\uD574\uC57C \uD55C\uB2E4."
+  isUnlocking: 1

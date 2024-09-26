@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 604f92c9fa27a544ab3997807313c644
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9183282183609706281
+    second: Steampunk_UI_gameplay_icons_2_1
+  - first:
+      213: 3665019714469203449
+    second: Steampunk_UI_gameplay_icons_2_15
+  - first:
+      213: -1597786864959473167
+    second: Steampunk_UI_gameplay_icons_2_2
+  - first:
+      213: 8997256519204195368
+    second: Steampunk_UI_gameplay_icons_2_12
+  - first:
+      213: 2646490671999957014
+    second: Steampunk_UI_gameplay_icons_2_4
+  - first:
+      213: 4728757730926431292
+    second: Steampunk_UI_gameplay_icons_2_14
+  - first:
+      213: -7032047603049218625
+    second: Steampunk_UI_gameplay_icons_2_3
+  - first:
+      213: -15121066305905564
+    second: Steampunk_UI_gameplay_icons_2_0
+  - first:
+      213: 262611403167825639
+    second: Steampunk_UI_gameplay_icons_2_6
+  - first:
+      213: -363539770308219252
+    second: Steampunk_UI_gameplay_icons_2_7
+  - first:
+      213: 7412543411141735697
+    second: Steampunk_UI_gameplay_icons_2_5
+  - first:
+      213: 3709838685144421761
+    second: Steampunk_UI_gameplay_icons_2_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 776
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c163668774acff0800000000000000
+      internalID: -15121066305905564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 788
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927ea3aad72917f70800000000000000
+      internalID: 9183282183609706281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 775
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f93e4fcf4583d9e0800000000000000
+      internalID: -1597786864959473167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_3
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 768
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd3d9066f5296e90800000000000000
+      internalID: -7032047603049218625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 444
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61831f59e393ab420800000000000000
+      internalID: 2646490671999957014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 441
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115f34785f4aed660800000000000000
+      internalID: 7412543411141735697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 432
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eef8c70eabf4a300800000000000000
+      internalID: 262611403167825639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_7
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 417
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e2d09418274faf0800000000000000
+      internalID: -363539770308219252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 54
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ccb3c722dacdc70800000000000000
+      internalID: 8997256519204195368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 62
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185190ae0aefb7330800000000000000
+      internalID: 3709838685144421761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_14
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 54
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c80cc2a1cef9140800000000000000
+      internalID: 4728757730926431292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk_UI_gameplay_icons_2_15
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 61
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd8dbf1304ccd230800000000000000
+      internalID: 3665019714469203449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Steampunk_UI_gameplay_icons_2_1: 9183282183609706281
+      Steampunk_UI_gameplay_icons_2_15: 3665019714469203449
+      Steampunk_UI_gameplay_icons_2_2: -1597786864959473167
+      Steampunk_UI_gameplay_icons_2_12: 8997256519204195368
+      Steampunk_UI_gameplay_icons_2_4: 2646490671999957014
+      Steampunk_UI_gameplay_icons_2_14: 4728757730926431292
+      Steampunk_UI_gameplay_icons_2_3: -7032047603049218625
+      Steampunk_UI_gameplay_icons_2_0: -15121066305905564
+      Steampunk_UI_gameplay_icons_2_6: 262611403167825639
+      Steampunk_UI_gameplay_icons_2_7: -363539770308219252
+      Steampunk_UI_gameplay_icons_2_5: 7412543411141735697
+      Steampunk_UI_gameplay_icons_2_13: 3709838685144421761
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_gameplay_icons_2.png
+  uploadId: 559104

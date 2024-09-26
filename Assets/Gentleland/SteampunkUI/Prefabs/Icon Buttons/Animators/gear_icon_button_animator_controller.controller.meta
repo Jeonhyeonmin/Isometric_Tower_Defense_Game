@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 05db9f222f57c584a8da4d538682447f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animators/gear_icon_button_animator_controller.controller
+  uploadId: 559104

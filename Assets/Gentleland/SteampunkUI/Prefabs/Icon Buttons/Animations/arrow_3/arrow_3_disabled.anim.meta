@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80f64f9bed2f7c742982c7d52c098cc3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/arrow_3/arrow_3_disabled.anim
+  uploadId: 559104

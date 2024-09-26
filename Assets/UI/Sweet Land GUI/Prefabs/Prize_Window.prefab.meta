@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2de6adfc5be43444bb76afa224daee78
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Prize_Window.prefab
+  uploadId: 467214

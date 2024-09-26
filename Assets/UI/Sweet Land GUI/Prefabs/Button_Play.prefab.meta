@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dfc791cae673ad54f95dfb5d7dac7c30
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Button_Play.prefab
+  uploadId: 467214

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 20fb914648d8116428a2006cb6185047
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/gear_wrench/gear_wrench_highlighted.anim
+  uploadId: 559104

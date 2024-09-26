@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: daabb4402d792e943b6f6ee1308a57f0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/exclamation_mark/exclamation_mark_highlighted.anim
+  uploadId: 559104

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c10fd96805c8c604e8aef3427e0475ff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/feather_question_mark/feather_question_mark_disabled.anim
+  uploadId: 559104

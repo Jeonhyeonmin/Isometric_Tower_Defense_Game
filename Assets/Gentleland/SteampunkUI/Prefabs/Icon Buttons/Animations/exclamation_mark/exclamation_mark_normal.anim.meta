@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fff4824025315bc47b079be9391f7eb1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/exclamation_mark/exclamation_mark_normal.anim
+  uploadId: 559104

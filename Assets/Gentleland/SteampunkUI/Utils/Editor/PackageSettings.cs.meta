@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c7b322cad1951d45b79a01705b9a67a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Utils/Editor/PackageSettings.cs
+  uploadId: 559104

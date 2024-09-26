@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8bf27b7e08dfc4d85d7f46a4fa3972, type: 3}
+  m_Name: BuySkill_DataBase
+  m_EditorClassIdentifier: 
+  databaseName: "\uAD6C\uB9E4 \uC2A4\uD0AC"
+  items:
+  - {fileID: 11400000, guid: 9cbca764dc152a746a411e84dd80d264, type: 2}
+  - {fileID: 11400000, guid: b2e76b902a41ff54dba8483cef63b6de, type: 2}
+  - {fileID: 11400000, guid: 172beb4d74620254faefd031ccae0f20, type: 2}
+  - {fileID: 11400000, guid: 3f0162c6eb972f34eb877a71fe6bd5a9, type: 2}
+  - {fileID: 11400000, guid: 6c20f41589339d24f8334d5b5c1b784d, type: 2}

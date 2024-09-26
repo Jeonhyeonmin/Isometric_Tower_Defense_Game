@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3acb3b981d2889049b52b55ea8ff8c38, type: 3}
+  m_Name: "\uACF5\uB300\uC9C0 \uBBF8\uC0AC\uC77C"
+  m_EditorClassIdentifier: 
+  itemName: "\uACF5\uB300\uC9C0 \uBBF8\uC0AC\uC77C"
+  price: 850
+  currencyType: 1
+  SkillIcon: {fileID: 7646981453247169095, guid: d7a0196c023923744a4bdc461d8f3eb1, type: 3}
+  description: 
+  isUnlocking: 1

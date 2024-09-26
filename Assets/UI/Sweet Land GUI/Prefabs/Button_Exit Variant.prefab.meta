@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 74ba689a879ace048a2e4a9279e977cd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Button_Exit Variant.prefab
+  uploadId: 467214

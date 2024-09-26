@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 23ee7fdd504bf53448d0b831c1c7bdde
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/exit/exit_pressed.anim
+  uploadId: 559104

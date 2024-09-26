@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 75358e570ec4d50438621f226a2de54e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/compass/compass_normal.anim
+  uploadId: 559104

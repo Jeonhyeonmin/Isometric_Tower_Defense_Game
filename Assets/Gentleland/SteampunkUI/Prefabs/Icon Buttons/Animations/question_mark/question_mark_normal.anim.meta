@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 623158a626c7b22478bad668ad4c5e2c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animations/question_mark/question_mark_normal.anim
+  uploadId: 559104

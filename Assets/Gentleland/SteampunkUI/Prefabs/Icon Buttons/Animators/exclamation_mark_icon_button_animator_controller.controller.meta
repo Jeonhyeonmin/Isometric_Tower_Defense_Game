@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c64fd78efcd88ff4daedaddc9efa1b01
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Prefabs/Icon Buttons/Animators/exclamation_mark_icon_button_animator_controller.controller
+  uploadId: 559104

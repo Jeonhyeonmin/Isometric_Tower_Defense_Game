@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bd790431bb4504a89a5dc2b3e22b0a, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  databaseName: Pistols
+  gunTypeName: CURRENT PISTOL
+  guns:
+  - {fileID: 11400000, guid: a57ac7f68ab7d7c459a563ac39e56f7f, type: 2}
+  - {fileID: 11400000, guid: 2ad32f57854219840834fdb7d96ab78b, type: 2}

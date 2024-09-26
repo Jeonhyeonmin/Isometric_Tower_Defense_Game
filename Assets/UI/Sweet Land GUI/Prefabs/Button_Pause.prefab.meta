@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1dbd35d4719e0b24aadd3d891ff35bfc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208285
+  packageName: Sweet Land GUI
+  packageVersion: 1.0
+  assetPath: Assets/Sweet Land GUI/Prefabs/Button_Pause.prefab
+  uploadId: 467214

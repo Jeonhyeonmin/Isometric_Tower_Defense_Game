@@ -1,0 +1,1069 @@
+fileFormatVersion: 2
+guid: cbe31cbb249f533428f7f4d84652d789
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7100116942994055197
+    second: FontAtlas_0
+  - first:
+      213: 7264087667350006480
+    second: FontAtlas_1
+  - first:
+      213: -3765008998102536080
+    second: FontAtlas_2
+  - first:
+      213: -571839102836602689
+    second: FontAtlas_3
+  - first:
+      213: 4601706975891519278
+    second: FontAtlas_4
+  - first:
+      213: -1585806603990308108
+    second: FontAtlas_5
+  - first:
+      213: 41871445257455631
+    second: FontAtlas_6
+  - first:
+      213: 172906458201891929
+    second: FontAtlas_7
+  - first:
+      213: -2938505728865006426
+    second: FontAtlas_8
+  - first:
+      213: -3715129325534922149
+    second: FontAtlas_10
+  - first:
+      213: 3561237340001633423
+    second: FontAtlas_12
+  - first:
+      213: 8835369868800821734
+    second: FontAtlas_14
+  - first:
+      213: -5129188378419284479
+    second: FontAtlas_15
+  - first:
+      213: 4477875646431072024
+    second: FontAtlas_16
+  - first:
+      213: 8006700333463496617
+    second: FontAtlas_17
+  - first:
+      213: 8003249585659065844
+    second: FontAtlas_18
+  - first:
+      213: 4116492939340254196
+    second: FontAtlas_19
+  - first:
+      213: -9063596206207764441
+    second: FontAtlas_20
+  - first:
+      213: 5970256474023317651
+    second: FontAtlas_21
+  - first:
+      213: -1580699195501003261
+    second: FontAtlas_22
+  - first:
+      213: 2547729312928534594
+    second: FontAtlas_23
+  - first:
+      213: -7605107380850572040
+    second: FontAtlas_24
+  - first:
+      213: -6359068314335849123
+    second: FontAtlas_25
+  - first:
+      213: 3444847653873192994
+    second: FontAtlas_26
+  - first:
+      213: 8883210715381575948
+    second: FontAtlas_27
+  - first:
+      213: 1209667650733394171
+    second: FontAtlas_28
+  - first:
+      213: -7694880854801356212
+    second: FontAtlas_29
+  - first:
+      213: -4892013604527153377
+    second: FontAtlas_30
+  - first:
+      213: -4359483943976127912
+    second: FontAtlas_31
+  - first:
+      213: -6516541191217585340
+    second: FontAtlas_32
+  - first:
+      213: 3716699702685020942
+    second: FontAtlas_33
+  - first:
+      213: 3349431974902145064
+    second: FontAtlas_34
+  - first:
+      213: -3840982995288525197
+    second: FontAtlas_35
+  - first:
+      213: 2642876579217593023
+    second: FontAtlas_36
+  - first:
+      213: -4845469862134889266
+    second: FontAtlas_37
+  - first:
+      213: 4893517203004460430
+    second: FontAtlas_38
+  - first:
+      213: -8691439665200438586
+    second: FontAtlas_39
+  - first:
+      213: -489929423943664893
+    second: FontAtlas_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FontAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 566
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef5b152241577d90800000000000000
+      internalID: -7100116942994055197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 561
+        width: 42
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da61b52f393fc460800000000000000
+      internalID: 7264087667350006480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 565
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f2fb934000cbc0800000000000000
+      internalID: -3765008998102536080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 567
+        width: 46
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb80fbe9d5b6018f0800000000000000
+      internalID: -571839102836602689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 565
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27737a1d1c8cdf30800000000000000
+      internalID: 4601706975891519278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 566
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa60beab451ef9e0800000000000000
+      internalID: -1585806603990308108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 565
+        width: 54
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f088dcc8bd1c49000800000000000000
+      internalID: 41871445257455631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 566
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954ae74f189466200800000000000000
+      internalID: 172906458201891929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 566
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac0d84cb945837d0800000000000000
+      internalID: -2938505728865006426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 566
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5abad0ef85317cc0800000000000000
+      internalID: -3715129325534922149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 366
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e90019751a8d9a70800000000000000
+      internalID: 8835369868800821734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 362
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106b14e685671d8b0800000000000000
+      internalID: -5129188378419284479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 360
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f85e5fc2c942e30800000000000000
+      internalID: 4477875646431072024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 361
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7e71f28838d1f60800000000000000
+      internalID: 8006700333463496617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 368
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5300a5811411f60800000000000000
+      internalID: 8003249585659065844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 360
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb87c9a488b02930800000000000000
+      internalID: 4116492939340254196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 361
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728786d7543a73280800000000000000
+      internalID: -9063596206207764441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 367
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390d220a1ac9ad250800000000000000
+      internalID: 5970256474023317651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 368
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eba63e47a301ae0800000000000000
+      internalID: -1580699195501003261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 367
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24094f8cf4a5b5320800000000000000
+      internalID: 2547729312928534594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 358
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f443b5712b357690800000000000000
+      internalID: -7605107380850572040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 214
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55d1955f0d00c7a0800000000000000
+      internalID: -6359068314335849123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 210
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220137a80be8ecf20800000000000000
+      internalID: 3444847653873192994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 214
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0133439411874b70800000000000000
+      internalID: 8883210715381575948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 220
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ce3ab15a99c010800000000000000
+      internalID: 1209667650733394171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 217
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a6c9cb1aa463590800000000000000
+      internalID: -7694880854801356212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 214
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fd7c1bb831c1cb0800000000000000
+      internalID: -4892013604527153377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 216
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852b84353700083c0800000000000000
+      internalID: -4359483943976127912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 213
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443664d00589095a0800000000000000
+      internalID: -6516541191217585340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 216
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03375b00be549330800000000000000
+      internalID: 3716699702685020942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 210
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820a06792a29b7e20800000000000000
+      internalID: 3349431974902145064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 79
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376f281f05612bac0800000000000000
+      internalID: -3840982995288525197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 80
+        width: 98
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2d6790f326da420800000000000000
+      internalID: 2642876579217593023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 82
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4c69135de61ccb0800000000000000
+      internalID: -4845469862134889266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 77
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d085b18f349e340800000000000000
+      internalID: 4893517203004460430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 80
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2ecf87cadc16780800000000000000
+      internalID: -8691439665200438586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FontAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 66
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b73d0e8cb6339f0800000000000000
+      internalID: -489929423943664893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FontAtlas_15: -5129188378419284479
+      FontAtlas_37: -4845469862134889266
+      FontAtlas_6: 41871445257455631
+      FontAtlas_22: -1580699195501003261
+      FontAtlas_3: -571839102836602689
+      FontAtlas_35: -3840982995288525197
+      FontAtlas_14: 8835369868800821734
+      FontAtlas_7: 172906458201891929
+      FontAtlas_19: 4116492939340254196
+      FontAtlas_26: 3444847653873192994
+      FontAtlas_36: 2642876579217593023
+      FontAtlas_38: 4893517203004460430
+      FontAtlas_25: -6359068314335849123
+      FontAtlas_18: 8003249585659065844
+      FontAtlas_24: -7605107380850572040
+      FontAtlas_4: 4601706975891519278
+      FontAtlas_34: 3349431974902145064
+      FontAtlas_10: -3715129325534922149
+      FontAtlas_39: -8691439665200438586
+      FontAtlas_0: -7100116942994055197
+      FontAtlas_1: 7264087667350006480
+      FontAtlas_20: -9063596206207764441
+      FontAtlas_28: 1209667650733394171
+      FontAtlas_16: 4477875646431072024
+      FontAtlas_31: -4359483943976127912
+      FontAtlas_17: 8006700333463496617
+      FontAtlas_30: -4892013604527153377
+      FontAtlas_5: -1585806603990308108
+      FontAtlas_21: 5970256474023317651
+      FontAtlas_23: 2547729312928534594
+      FontAtlas_33: 3716699702685020942
+      FontAtlas_29: -7694880854801356212
+      FontAtlas_8: -2938505728865006426
+      FontAtlas_32: -6516541191217585340
+      FontAtlas_27: 8883210715381575948
+      FontAtlas_9: -489929423943664893
+      FontAtlas_2: -3765008998102536080
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238976
+  packageName: SteampunkUI
+  packageVersion: 1.0
+  assetPath: Assets/Gentleland/SteampunkUI/Fonts/Custom Sprite Font/FontAtlas.png
+  uploadId: 559104
