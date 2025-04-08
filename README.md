@@ -38,7 +38,7 @@
 <table align="center">
   <tr>
     <td align="center">
-      🎮 타워 설치 장면<br/>
+      🎮 인게임 화면<br/>
       <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMTc0/MDAxNzQ0MDkzMDc4OTI0.82b7dQJBAPHoRskCLY2TxE-mPKUTV0sMtF5i34Je8IIg.oXFvbJ8__nVuCXhEnuKDqqZGQUqoWGGxGnAD2X-ZoJUg.PNG/Image_Sequence_020_0000.png?type=w966" width="300px"/>
     </td>
     <td align="center">
@@ -53,7 +53,7 @@
     </td>
     <td align="center">
       🛡️ 전투 화면<br/>
-      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfOTIg/MDAxNzQ0MDkzNDI2NjYy.6b00-62W82t5ntIOcdZDtXDc4-mQTo-h5qBRoy9NJU8g.vqUY2dfO0ScqyU2UVljI-mKa7OS1UL-PkaLbMBOjTSMg.PNG/Image_Sequence_024_0000.png?type=w966" width="300px"/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjY2/MDAxNzQ0MDk0MjEyNjkz.9rKDlpMWLnhZM9enTygkXMYydt_GfWy1ULt6pKw9Cdkg.Dyz-m32oGOTeEdNDfL78VzTy-Vz2F1V7vGn7IiyxiGEg.PNG/Image_Sequence_032_0000.png?type=w966" width="300px"/>
     </td>
   </tr>
   <tr>
