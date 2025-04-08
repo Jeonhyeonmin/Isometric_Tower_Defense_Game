@@ -2,7 +2,6 @@
   <h1>🏰 Tower Defense Game</h1>
   <p>전략과 성장의 재미를 담은, 심플하지만 강력한 타워 디펜스</p>
   <img src="https://img.shields.io/badge/Unity-6000.0.10f1-black?logo=unity&style=flat-square" alt="Unity Version" />
-  <img src="https://img.shields.io/badge/Pattern-MVC%20%7C%20Singleton%20%7C%20Object%20Pooling-green?style=flat-square" alt="Design Patterns" />
 </div>
 
 ---
