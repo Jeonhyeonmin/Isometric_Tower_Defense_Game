@@ -86,7 +86,6 @@
       🪙 코인 교환 시스템<br/>
       <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjIg/MDAxNzQ0MDkzNTg1NjE0.GFwlWDVWZWzLWB-O7kqaF0H5u1q-mYaI-kODfe5yXjog.zpf1GvbaqWeRSOpvuu8NXGNUAO166exuS-4T0l8Tl1Ug.PNG/Image_Sequence_015_0000.png?type=w966" width="300px"/>
     </td>
-    </td>
   </tr>
 </table>
 
