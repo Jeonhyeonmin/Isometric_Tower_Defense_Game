@@ -68,12 +68,8 @@ git clone https://github.com/your_username/tower-defense-game.git
 2. **Unity에서 프로젝트 열기**  
 Unity Hub를 실행한 뒤, 클론 받은 프로젝트 폴더를 선택하여 프로젝트를 엽니다.
 
-3. **의존성 패키지 설치**  
-Unity Package Manager를 사용하여 NativeGallery 및 기타 외부 패키지를 설치합니다.  
-(필요 시, Package Manager 탭에서 해당 패키지를 검색 후 설치)
-
 4. **씬 실행**  
-메인 씬 (예: Main.unity)을 열고 재생 버튼을 누르면 게임이 실행됩니다.
+메인 씬 (예: Menu_Screen.unity)을 열고 재생 버튼을 누르면 게임이 실행됩니다.
 
 ---
 
@@ -103,6 +99,7 @@ Unity Package Manager를 사용하여 NativeGallery 및 기타 외부 패키지�
 ---
 
 ## 🔮 향후 계획
+- **게임 시스템 완벽 구현**: 게임 내 미완성 된 시스템을 완전하게 개발 
 - **추가 타워 및 스킬**: 플레이 스타일에 맞춘 다양한 타워와 스킬 추가  
 - **멀티플레이어 모드**: 온라인 대전 기능 도입 검토  
 - **AI 개선**: 적 AI 알고리즘의 고도화 및 새로운 전투 패턴 도입  
