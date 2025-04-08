@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -24671,21 +24672,21 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1468103022}
+  - {fileID: 87872387}
   - {fileID: 505051177}
   - {fileID: 699654911}
   - {fileID: 2121238743}
   - {fileID: 467397703}
   - {fileID: 362082184}
   - {fileID: 200739341}
-  - {fileID: 2141206754}
   - {fileID: 1711951786}
   - {fileID: 895870934}
-  - {fileID: 87872387}
   - {fileID: 100176570}
   - {fileID: 2064407652}
   - {fileID: 775072358}
   - {fileID: 713297218}
   - {fileID: 91417943}
+  - {fileID: 2141206754}
   - {fileID: 1009985856}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24767,6 +24768,7 @@ MonoBehaviour:
   crystalText: {fileID: 968007675}
   skill_TotalCoinText: {fileID: 2094851681}
   skill_TotalCrystal: {fileID: 1092110120}
+  helpPanel_Group: []
 --- !u!114 &682141045
 MonoBehaviour:
   m_ObjectHideFlags: 0

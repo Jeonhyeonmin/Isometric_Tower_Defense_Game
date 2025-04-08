@@ -29,6 +29,11 @@ public class CountdownTimer : SingletonManager<CountdownTimer>
 	{
 		remainingTime = endTime - DateTime.Now;
 
+		if (timerTextList.Count <= 0)
+		{
+			return;
+		}
+
 		if (remainingTime.TotalSeconds > 0)
 		{
 			foreach (TMP_Text timerText in timerTextList)
