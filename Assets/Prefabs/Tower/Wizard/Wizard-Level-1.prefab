@@ -232,7 +232,7 @@ MonoBehaviour:
   anim: {fileID: 5686351642135613920}
   centerAxisStick: {fileID: 4103364167205317371}
   bulletFirePos: {fileID: 1549831900508219352}
-  bulletPoolSize: 100
+  bulletPoolSize: 10
   enemyLayerMask:
     serializedVersion: 2
     m_Bits: 64

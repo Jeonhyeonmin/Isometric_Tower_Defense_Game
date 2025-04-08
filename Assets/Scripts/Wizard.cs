@@ -93,7 +93,7 @@ public class Wizard : Tower
 
 		foreach (Collider2D collider in towerColliders)
 		{
-			if (collider.gameObject != gameObject)
+			if (collider.GetComponent<Wizard>() == null)
 			{
 				filteredTowerColliders.Add(collider);
 			}
@@ -307,13 +307,14 @@ public class Wizard : Tower
 			anim.speed = 1.0f;
 			anim.SetBool("Idle", true);
 
-			if (selectedTargets == null)
-			{
-				anim.SetBool("Idle", true);
-				currentLockTarget = false;
-				compoundCoroutine = null;
-				yield break;
-			}
+			// 최적화 의문 코드
+			//if (selectedTargets == null)
+			//{
+			//	anim.SetBool("Idle", true);
+			//	currentLockTarget = false;
+			//	compoundCoroutine = null;
+			//	yield break;
+			//}
 
 			// 다음 공격 준비
 			yield return new WaitForSeconds(0.1f); // 약간의 지연 추가
@@ -362,13 +363,14 @@ public class Wizard : Tower
 			anim.speed = 1.0f;
 			anim.SetBool("Idle", true);
 
-			if (selectedTargets == null)
-			{
-				anim.SetBool("Idle", true);
-				currentLockTarget = false;
-				compoundCoroutine = null;
-				yield break;
-			}
+			// 최적화 의문 코드
+			//if (selectedTargets == null)
+			//{
+			//	anim.SetBool("Idle", true);
+			//	currentLockTarget = false;
+			//	compoundCoroutine = null;
+			//	yield break;
+			//}
 
 			// 다음 지원 준비
 			yield return new WaitForSeconds(0.1f); // 약간의 지연 추가

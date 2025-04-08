@@ -151,7 +151,19 @@ public class UIManager : MonoBehaviour
 	[SerializeField] private TMP_Text skill_TotalCoinText;
     [SerializeField] private TMP_Text skill_TotalCrystal;
 
-    #endregion
+	#endregion
+
+	#region helpMenu
+
+	[SerializeField] Image[] helpPanel_Group;
+	private int currentHelpPageNum;
+	public int CurrentHelpPageNum
+	{
+		get => currentHelpPageNum;
+		set => currentHelpPageNum = value;
+	}
+
+	#endregion helpMenu
 
     private void Awake()
 	{
@@ -199,9 +211,15 @@ public class UIManager : MonoBehaviour
 		#region StageFinsih
 
 		#endregion
-	}
 
-	private void Update()
+		#region helpPanel
+
+		currentHelpPageNum = 0;
+
+        #endregion helpPanel
+    }
+
+    private void Update()
 	{
 		ChangeMusicSprite();
 		AutomaticGameModeChange();
@@ -627,6 +645,71 @@ public class UIManager : MonoBehaviour
 	public void OnClickInGameMenuButton()
 	{
 		quickMenuInGameObject.GetComponent<Animator>().SetBool("isNormal", !quickMenuInGameObject.GetComponent<Animator>().GetBool("isNormal"));
+	}
+
+	public void OnClickHelpMenuButton()
+	{
+		switch (currentHelpPageNum)
+		{
+			case 0:
+				for (int i = 0; i < helpPanel_Group.Length; i++)
+				{
+					if (i == 0)
+					{
+						helpPanel_Group[i].gameObject.SetActive(true);
+					}
+					else
+					{
+                        helpPanel_Group[i].gameObject.SetActive(false);
+                    }
+				}
+				break;
+			case 1:
+                for (int i = 0; i < helpPanel_Group.Length; i++)
+                {
+                    if (i == 1)
+                    {
+                        helpPanel_Group[i].gameObject.SetActive(true);
+                    }
+                    else
+                    {
+                        helpPanel_Group[i].gameObject.SetActive(false);
+                    }
+                }
+                break;
+			case 2:
+                for (int i = 0; i < helpPanel_Group.Length; i++)
+                {
+                    if (i == 2)
+                    {
+                        helpPanel_Group[i].gameObject.SetActive(true);
+                    }
+                    else
+                    {
+                        helpPanel_Group[i].gameObject.SetActive(false);
+                    }
+                }
+                break;
+			case 3:
+                for (int i = 0; i < helpPanel_Group.Length; i++)
+                {
+                    if (i == 3)
+                    {
+                        helpPanel_Group[i].gameObject.SetActive(true);
+                    }
+                    else
+                    {
+                        helpPanel_Group[i].gameObject.SetActive(false);
+                    }
+                }
+                break;
+			default:
+                for (int i = 0; i < helpPanel_Group.Length; i++)
+                {
+                    helpPanel_Group[i].gameObject.SetActive(false);
+                }
+                break;
+		}
 	}
 
 	private void RemainEnemy()
