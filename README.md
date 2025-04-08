@@ -1,8 +1,7 @@
 <div align="center">
   <h1>🏰 Tower Defense Game</h1>
-  <p>전략과 성장의 재미를 담은, 심플하지만 강력한 타워 디펜스</p>
+  <p>전략과 성장의 재미를 담은, 타워 디펜스</p>
   <img src="https://img.shields.io/badge/Unity-6000.0.10f1-black?logo=unity&style=flat-square" alt="Unity Version" />
-  <img src="https://img.shields.io/badge/Pattern-MVC%20%7C%20Singleton%20%7C%20Object%20Pooling-green?style=flat-square" alt="Design Patterns" />
 </div>
 
 ---
@@ -11,7 +10,7 @@
 
 이 프로젝트는 Unity 기반의 타워 디펜스 게임으로,  
 다양한 **디자인 패턴**과 **모듈형 아키텍처**를 적용해 개발되었습니다.  
-**유니티 6**의 **GPU Resident Drawer**를 이용하여 많은 오브젝트가 렌더링이 되더라도 프레임 방어가 가능합니다. 
+**유니티 6**의 **GPU Resident Drawer**를 이용하여 많은 오브젝트가 렌더링이 되더라도 프레임 방어가 가능합니다.<br>
 클린 코드와 유지보수에 초점을 맞춰, 개발자와 유저 모두를 고려한 구조를 구현했습니다.
 
 ---
@@ -36,10 +35,58 @@
 
 > 플레이 장면, UI, 상점, 도감 등 다양한 스크린샷을 통해 게임의 분위기와 기능을 확인할 수 있습니다.
 
-<div align="center">
-  <img src="Screenshots/gameplay.png" width="600px" alt="타워 설치 장면 예시" />
-  <p>📸 <i>타워 설치 장면 (예시)</i></p>
-</div>
+<table align="center">
+  <tr>
+    <td align="center">
+      🎮 인게임 화면<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMTc0/MDAxNzQ0MDkzMDc4OTI0.82b7dQJBAPHoRskCLY2TxE-mPKUTV0sMtF5i34Je8IIg.oXFvbJ8__nVuCXhEnuKDqqZGQUqoWGGxGnAD2X-ZoJUg.PNG/Image_Sequence_020_0000.png?type=w966" width="300px"/>
+    </td>
+    <td align="center">
+      ⚙️ 게임 정보 수정<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjQx/MDAxNzQ0MDkzMDY5NDg3.Lv7-eZrhE2t0JdBA0Ofij5BOSwqnX1TUh2jCpTazlyYg.pWgF0175HxkTk1VoM37iAy1cj5x8UEHMhPNWY9_uGTgg.PNG/Image_Sequence_013_0000.png?type=w966" width="300px"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      🎯 게임 난이도 설정<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfOTAg/MDAxNzQ0MDkzMTA3ODI4.2rNbQ2Fo8JJKxuD9q9Gc8LHvopptcp7elWTj0TUKJO0g.hXuhXZJfbSrMYfnluLfs5zODs0wHfy29nkkX3mQqTgsg.PNG/Image_Sequence_010_0000.png?type=w966" width="300px"/>
+    </td>
+    <td align="center">
+      🛡️ 전투 화면<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjY2/MDAxNzQ0MDk0MjEyNjkz.9rKDlpMWLnhZM9enTygkXMYydt_GfWy1ULt6pKw9Cdkg.Dyz-m32oGOTeEdNDfL78VzTy-Vz2F1V7vGn7IiyxiGEg.PNG/Image_Sequence_032_0000.png?type=w966" width="300px"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      ⚙️ 게임 세팅 화면<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjM0/MDAxNzQ0MDkzMTI4NDYw.w5ZCWJpWWX1j1-UflAhA9F1W3zGN3ffh52nEpRjEtmcg.ixlaWMhPhl8dfaV0iJOKlEnmGhRP1_EZwJ8fS2J8nw8g.PNG/Image_Sequence_003_0000.png?type=w966" width="300px"/>
+    </td>
+    <td align="center">
+      🎒 인벤토리<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjY1/MDAxNzQ0MDkzMTIwMzU4.H3_K2aCQhPf9YY5_1tdGGkctwBcM0BOvFA5ZoJsmJPIg.NTvfmMqBc476ZUu-xP3X6gHDGaoW4ge2FcFb9BLPrSMg.PNG/Image_Sequence_009_0000.png?type=w966" width="300px"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      📚 도감 시스템<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMTA4/MDAxNzQ0MDkzMTE4MDU1.AonPK1Bj0fIh1ihgTy3pABrcF6WBlhjGufpLH-aHr-wg.mhO4DCLW1VTqv4NaQbyM_EOVJoDOfd7Y-8dgRZt8PCIg.PNG/Image_Sequence_008_0000.png?type=w966" width="300px"/>
+    </td>
+    <td align="center">
+      💥 스킬 강화<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjI2/MDAxNzQ0MDkzMTE2Mzgx.LF97tWlgd1pt8dLjANXZd83ZlaNAy_rcK66zkKurkc0g.t4RsKbdlAcdtfDT0S2vrvgRl3wYafPeMVEZa1gYXgTIg.PNG/Image_Sequence_007_0000.png?type=w966" width="300px"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      🔫 무기 구매 및 강화<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMTc2/MDAxNzQ0MDkzMTE0Njc2.BPb9ziGRaMmmQx1w7j5_FiyDbDdeFHpCCmqlTNn8Qt4g.U_G88z-ru2LlEJSvwPFiKL3DXfv6Pu9wlB0lEOFzgFQg.PNG/Image_Sequence_006_0000.png?type=w966" width="300px"/>
+    </td>
+    <td align="center">
+      🪙 코인 교환 시스템<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjIg/MDAxNzQ0MDkzNTg1NjE0.GFwlWDVWZWzLWB-O7kqaF0H5u1q-mYaI-kODfe5yXjog.zpf1GvbaqWeRSOpvuu8NXGNUAO166exuS-4T0l8Tl1Ug.PNG/Image_Sequence_015_0000.png?type=w966" width="300px"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -68,12 +115,11 @@ git clone https://github.com/your_username/tower-defense-game.git
 2. **Unity에서 프로젝트 열기**  
 Unity Hub를 실행한 뒤, 클론 받은 프로젝트 폴더를 선택하여 프로젝트를 엽니다.
 
-3. **의존성 패키지 설치**  
-Unity Package Manager를 사용하여 NativeGallery 및 기타 외부 패키지를 설치합니다.  
-(필요 시, Package Manager 탭에서 해당 패키지를 검색 후 설치)
-
 4. **씬 실행**  
-메인 씬 (예: Main.unity)을 열고 재생 버튼을 누르면 게임이 실행됩니다.
+메인 씬 (예: Menu_Screen.unity)을 열고 재생 버튼을 누르면 게임이 실행됩니다.
+
+4. **게임 씬 사이즈 조절**  
+Fixed Resolution(1080x1920) 사이즈로 게임 씬 사이즈를 조절합니다. 
 
 ---
 
@@ -103,6 +149,7 @@ Unity Package Manager를 사용하여 NativeGallery 및 기타 외부 패키지�
 ---
 
 ## 🔮 향후 계획
+- **게임 시스템 완벽 구현**: 게임 내 미완성 된 시스템을 완전하게 개발 
 - **추가 타워 및 스킬**: 플레이 스타일에 맞춘 다양한 타워와 스킬 추가  
 - **멀티플레이어 모드**: 온라인 대전 기능 도입 검토  
 - **AI 개선**: 적 AI 알고리즘의 고도화 및 새로운 전투 패턴 도입  
