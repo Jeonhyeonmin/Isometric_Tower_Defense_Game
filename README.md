@@ -81,7 +81,12 @@
       🔫 무기 구매 및 강화<br/>
       <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMTc2/MDAxNzQ0MDkzMTE0Njc2.BPb9ziGRaMmmQx1w7j5_FiyDbDdeFHpCCmqlTNn8Qt4g.U_G88z-ru2LlEJSvwPFiKL3DXfv6Pu9wlB0lEOFzgFQg.PNG/Image_Sequence_006_0000.png?type=w966" width="300px"/>
     </td>
-    <td></td>
+    <td>
+      <td align="center">
+      🪙 코인 교환 시스템<br/>
+      <img src="https://postfiles.pstatic.net/MjAyNTA0MDhfMjIg/MDAxNzQ0MDkzNTg1NjE0.GFwlWDVWZWzLWB-O7kqaF0H5u1q-mYaI-kODfe5yXjog.zpf1GvbaqWeRSOpvuu8NXGNUAO166exuS-4T0l8Tl1Ug.PNG/Image_Sequence_015_0000.png?type=w966" width="300px"/>
+    </td>
+    </td>
   </tr>
 </table>
 
