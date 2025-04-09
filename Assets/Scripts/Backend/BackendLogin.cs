@@ -17,6 +17,8 @@ public class BackendLogin : MonoBehaviour
 
     [SerializeField] private TMP_Text messageText;
 
+    bool isLoginMode = true; // 로그인 모드인지 여부
+
     private bool OnValidate
     {
         get
@@ -47,10 +49,34 @@ public class BackendLogin : MonoBehaviour
         }
     }
 
+    public void OnClickButtonChangeMode()
+    {
+        isLoginMode = !isLoginMode;
+
+        if (isLoginMode)
+        {
+            ok_Button.onClick.RemoveListener(OnClickCustomSignup);
+            ok_Button.onClick.RemoveListener(OnClickCustomLogin);
+
+            ok_Button.onClick.AddListener(OnClickCustomLogin);
+
+            loginAndSign_Button.GetComponentInChildren<TextMeshProUGUI>().text = "회원가입";
+        }
+        else
+        {
+            ok_Button.onClick.RemoveListener(OnClickCustomSignup);
+            ok_Button.onClick.RemoveListener(OnClickCustomLogin);
+
+            ok_Button.onClick.AddListener(OnClickCustomSignup);
+
+            loginAndSign_Button.GetComponentInChildren<TextMeshProUGUI>().text = "로그인";
+        }
+    }
+
     private void Awake()
     {
         ok_Button.interactable = true;
-        ok_Button.onClick.AddListener(() => OnClickCustomSignup());
+        ok_Button.onClick.AddListener(() => OnClickCustomLogin());
     }
 
     /// <summary>
@@ -101,9 +127,9 @@ public class BackendLogin : MonoBehaviour
     /// </summary>
     /// <param name="id"></param>
     /// <param name="pw"></param>
-    private void OnClickCustomLogin(string id, string pw)
+    private void OnClickCustomLogin()
     {
-        if (string.IsNullOrEmpty(id) || string.IsNullOrEmpty(pw))
+        if (string.IsNullOrEmpty(id_InputField.text) || string.IsNullOrEmpty(pw_InputField.text))
         {
             messageText.text = "아이디와 비밀번호 모두 입력해주세요.";
             return;
@@ -112,7 +138,7 @@ public class BackendLogin : MonoBehaviour
         // Perform login logic here
         // For example, you can call a backend service to authenticate the user
         // If login is successful, you can show a success message
-        Backend.BMember.CustomLogin(id, pw, callback =>
+        Backend.BMember.CustomLogin(id_InputField.text, pw_InputField.text, callback =>
         {
             if (callback.IsSuccess())
             {
