@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🏰 Tower Defense Game</h1>
-  <p>전략과 성장의 재미를 담은, 타워 디펜스 - 개발 중</p>
+  <p>전략과 성장의 재미를 담은, 타워 디펜스 - 개발 중 - 버그 픽스 중</p>
   <img src="https://img.shields.io/badge/Unity-6000.0.10f1-black?logo=unity&style=flat-square" alt="Unity Version" />
 </div>
 
