@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -594703983
-  m_SortingLayer: 6
+  m_SortingLayerID: 1015987397
+  m_SortingLayer: 8
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 30352e4f013891348bd6c0d8943c825e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -165,8 +165,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -594703983
-  m_SortingLayer: 6
+  m_SortingLayerID: 1015987397
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0a0b70cfd52e574419e377163923b946, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -214,18 +214,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerType: 0
-  towerStatus: 0
   towerTemplate: {fileID: 11400000, guid: fab5bd64ad9079241b8d5b1613f7d444, type: 2}
   towerResponseTime: 0.5
   placeTile: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 64
+  baseDamage: 0
+  baseRange: 0
+  baseRate: 0
+  baseSupport: 0
+  baseaVailableSoldiers: 0
+  runtimeDamage: 0
+  runtimeRange: 0
+  runtimeRate: 0
+  runtimeSupport: 0
+  runtimeVailableSoldiers: 0
   bulletPrefab: {fileID: 4120411926414778308, guid: e1bc4a66bb997c8438ae8018a0dd1ee2, type: 3}
   anim: {fileID: 5686351642135613920}
   centerAxisBow: {fileID: 4103364167205317371}
   arrowFirePos: {fileID: 1549831900508219352}
   bulletPoolSize: 10
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!61 &-6254966680740927101
 BoxCollider2D:
   m_ObjectHideFlags: 0

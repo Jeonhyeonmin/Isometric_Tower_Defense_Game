@@ -6999,7 +6999,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC798\uBABB \uB41C \uD68C\uC6D0 \uC815\uBCF4 \uC785\uB2C8\uB2E4."
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 39dc45b38f382d943b37d133cdd63e4f, type: 2}
   m_sharedMaterial: {fileID: 3930715048183998536, guid: 39dc45b38f382d943b37d133cdd63e4f, type: 2}

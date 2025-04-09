@@ -55,9 +55,6 @@ TagManager:
   - name: Villages
     uniqueID: 451146177
     locked: 0
-  - name: Tower
-    uniqueID: 1015987397
-    locked: 0
   - name: BG
     uniqueID: 557641873
     locked: 0
@@ -66,6 +63,12 @@ TagManager:
     locked: 0
   - name: User Interface
     uniqueID: 2098962389
+    locked: 0
+  - name: Bullet
+    uniqueID: 2140786431
+    locked: 0
+  - name: Tower
+    uniqueID: 1015987397
     locked: 0
   m_RenderingLayers:
   - Default
