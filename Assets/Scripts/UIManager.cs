@@ -1,12 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Text.RegularExpressions;
+using BackEnd;
+using BackEnd.BackndLitJson;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static BackEnd.Quobject.SocketIoClientDotNet.Parser.Parser.Encoder;
 
 public class UIManager : MonoBehaviour
 {
@@ -69,11 +73,14 @@ public class UIManager : MonoBehaviour
 	[SerializeField] private TMP_Text urlProfileInputField_Hint;
 	[SerializeField] private TMP_Text urlProfileText;
 
-	#endregion
+    [SerializeField] private Image profileImage;
+	[SerializeField] private Image profileEditor_Image;
 
-	#region QuickMenu
+    #endregion
 
-	private Coroutine stageErrorCoroutine;
+    #region QuickMenu
+
+    private Coroutine stageErrorCoroutine;
 	[SerializeField] private Button startStageButton;
 
 	[SerializeField] private GameObject stageErrorPanel;
@@ -204,7 +211,21 @@ public class UIManager : MonoBehaviour
 		{
 			nicknameInputField.onEndEdit.AddListener(ValidateAndSetNickname);
 			urlProfileInputField.onEndEdit.AddListener(ValidationandURLPassing);
-		}
+
+			Backend.BMember.GetUserInfo((callback =>
+			{
+				string nickname = callback.GetReturnValuetoJSON()["row"]["nickname"].ToString();
+				nicknameText.text = nickname;
+				nicknameInputField_Hint.text = nickname;
+            }));
+
+            string base64 = PlayerWalletManager.Instance.profilebase64;
+            byte[] imageBytes = Convert.FromBase64String(base64);
+            Texture2D texture = new Texture2D(2, 2);
+            texture.LoadImage(imageBytes);
+
+            profileImage.sprite = SpriteFromTexture2D(texture);
+        }
 
 		#endregion
 
@@ -217,6 +238,13 @@ public class UIManager : MonoBehaviour
 		currentHelpPageNum = 0;
 
         #endregion helpPanel
+    }
+
+    private Sprite SpriteFromTexture2D(Texture2D texture)
+    {
+        // Texture2D©║╪╜ Sprite╦╕ ╩Щ╪╨гу╢о╢ы.
+        Rect rect = new Rect(0, 0, texture.width, texture.height);
+        return Sprite.Create(texture, rect, new Vector2(0.5f, 0.5f));
     }
 
     private void Update()
@@ -306,6 +334,22 @@ public class UIManager : MonoBehaviour
 	{
 		profileSettings.SetActive(true);
 		Debug.Log("га╥нгй ╪╪фцц╒юл ©╜╥х╫ю╢о╢ы.");
+
+		if (profileEditor_Image.gameObject.activeSelf)
+		{
+			Debug.Log("га╥нгй юл╧лаЖ╟║ х╟╪╨х╜ ╣г╬З╫ю╢о╢ы.");
+            string base64 = PlayerWalletManager.Instance.profilebase64;
+            byte[] imageBytes = Convert.FromBase64String(base64);
+            Texture2D texture = new Texture2D(2, 2);
+            texture.LoadImage(imageBytes);
+			Debug.Log(base64);
+
+            profileEditor_Image.sprite = SpriteFromTexture2D(texture);
+        }
+		else
+		{
+            Debug.Log("га╥нгй юл╧лаЖ╟║ ╨Ях╟╪╨х╜ ╣г╬З╫ю╢о╢ы.");
+        }
 	}
 
 	public void ValidateAndSetNickname(string name)
@@ -320,17 +364,42 @@ public class UIManager : MonoBehaviour
 		if (!Regex.IsMatch(name, @"^[╟║-фRa-zA-Z0-9_]+$"))
 		{
 			feedbackText.text = "╢пЁвюсю╨ гя╠ш, ╬кфд╨╙, ╪Щюз, ф╞╪Ж╧╝юз '_'╦╦ \n ╩Г©Кгр ╪Ж юж╫ю╢о╢ы.";
+			Debug.Log("╬ф╬ф");
 			onTriggerNicknameErrorNotify();
 			return;
 		}
 
-		nickname = name;
-		nicknameText.text = nickname;
-		nicknameInputField_Hint.text = nickname;
-		nicknameInputField.text = string.Empty;
+        Backend.BMember.UpdateNickname(nicknameInputField.text, callback =>
+        {
+            if (callback.IsSuccess())
+			{
+				Debug.Log("╢пЁвюсюл ╪╨╟ЬюШю╦╥н ╨╞╟Ф╣г╬З╫ю╢о╢ы.");
 
-		PlayerWalletManager.Instance.nickname = nickname;
-		Debug.Log($"╢пЁвюсюл ╪Ёа╓ ╣й : {nickname}");
+                nickname = name;
+                nicknameText.text = nickname;
+                nicknameInputField_Hint.text = nickname;
+                nicknameInputField.text = string.Empty;
+
+                PlayerWalletManager.Instance.nickname = nickname;
+                Debug.Log($"╢пЁвюсюл ╪Ёа╓ ╣й : {nickname}");
+            }
+			else
+			{
+                Debug.LogError($"╢пЁвюс ╨╞╟Ф ╫гфп: {callback.GetCode()}");
+
+				switch (int.Parse(callback.GetErrorCode()))
+				{
+					case 400:   // юл╧л аъ╨╧╣х ╢пЁвюсюл юж╢б ╟Ф©Л
+						feedbackText.text = "юл╧л ╩Г©Каъюн ╢пЁвюсют╢о╢ы.\n╢ы╦╔ ╢пЁвюсю╩ ╩Г©Кгьаж╪╪©Д.";
+						break;
+					default:
+						feedbackText.text = "╬к ╪Ж ╬Ь╢б ©ю╥Ы╟║ ╧ъ╩Щгъ╫ю╢о╢ы.";
+						break;
+				}
+
+				onTriggerNicknameErrorNotify();
+            }
+        });
 	}
 
 	public void onTriggerNicknameErrorNotify()
@@ -392,7 +461,6 @@ public class UIManager : MonoBehaviour
 
 	public void OpenGallery()
 	{
-		// NativeGallery API╦╕ ╩Г©Кго©╘ ╟╤╥╞╦╝©║╪╜ юл╧лаЖ╦╕ ╪╠ецго╢б ©Дц╩ю╩ ╨╦Ёю╢о╢ы.
 		NativeGallery.Permission permission = NativeGallery.GetImageFromGallery((path) =>
 		{
 			// ╩Г©Кюз╟║ юл╧лаЖ╦╕ ╪╠ецго╟М ╟╤╥╞╦╝©║╪╜ ╧щх╞╣х юл╧лаЖ ╟Ф╥н╟║ nullюл ╬ф╢я ╟Ф©Л
@@ -441,8 +509,7 @@ public class UIManager : MonoBehaviour
 
 			}
 		},
-		// ╟╤╥╞╦╝©║╪╜ юл╧лаЖ╦╕ ╪╠ецго╣╣╥о ©Дц╩гр ╤╖ ╩Г©Кюз©║╟т г╔╫цгр ╦ч╫цаЖют╢о╢ы.
-		// ╟╤╥╞╦╝©║╪╜ ╪╠ецгр юл╧лаЖюг MIME е╦ютют╢о╢ы. ©╘╠Б╪╜╢б PNG гЭ╫дю╩ аЖа╓гу╢о╢ы.
+
 		"га╥нгй╥н ╩Г©Кго╟М ╫мю╨ юл╧лаЖ╦╕ ╪╠ецго╪╪©Д", "image/*");
 
 		// ╠ггя ╩Себ©║ ╣Ш╦╔ цъ╟║ цЁ╦╝╦╕ гр ╪Ж юж╢ы.

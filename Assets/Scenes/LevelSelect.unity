@@ -24731,6 +24731,8 @@ MonoBehaviour:
   urlProfileInputField: {fileID: 1338616622}
   urlProfileInputField_Hint: {fileID: 736413155}
   urlProfileText: {fileID: 297938582}
+  profileImage: {fileID: 2144597967}
+  profileEditor_Image: {fileID: 282516885}
   startStageButton: {fileID: 2728372}
   stageErrorPanel: {fileID: 2121238742}
   stageErrorText: {fileID: 148200949}
@@ -34067,7 +34069,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2098962389
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 2585733289897155410, guid: a074fd7928892fc4496558627d5ad723, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -69784,7 +69786,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2098962389
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 2585733289897155410, guid: a074fd7928892fc4496558627d5ad723, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -69875,7 +69877,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2098962389
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 6097757676412363314, guid: b94f6403711a7a74d840c0185010a545, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

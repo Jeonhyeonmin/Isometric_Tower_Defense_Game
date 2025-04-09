@@ -7917,6 +7917,7 @@ MonoBehaviour:
   loginAndSign_Button: {fileID: 544422797}
   ok_Button: {fileID: 1809048388}
   messageText: {fileID: 1727009678}
+  uIManager: {fileID: 0}
 --- !u!1 &1957525744
 GameObject:
   m_ObjectHideFlags: 0

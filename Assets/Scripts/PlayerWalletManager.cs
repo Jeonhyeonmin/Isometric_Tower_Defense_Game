@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
 {
     public Sprite profile;
+    public string profilebase64;
     public string nickname;
 
     [SerializeField] private int totalCoin;
@@ -42,16 +44,33 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
         get => itemDatabases; set => itemDatabases = value;
     }
 
-	private void OnEnable()
+	private void Awake()
 	{
         totalCoin = PlayerPrefs.GetInt("PlayerWallet_Coin");
         totalCrystal = PlayerPrefs.GetInt("PlayerWallet_Crystal");
         inventoryExpansionLevel = PlayerPrefs.GetInt("PlayerInventoryExpansion_Level");
+        profilebase64 = PlayerPrefs.GetString("PlayerProfileBase64");
+        nickname = PlayerPrefs.GetString("PlayerNickname");
 
-		FindItemDatabase();
+        string base64 = profilebase64;
+        byte[] imageBytes = Convert.FromBase64String(base64);
+        Texture2D texture = new Texture2D(2, 2);
+        texture.LoadImage(imageBytes);
+        Debug.Log(base64);
+
+        profile = SpriteFromTexture2D(texture);
+
+        FindItemDatabase();
 	}
 
-	private void FindItemDatabase()
+    private Sprite SpriteFromTexture2D(Texture2D texture)
+    {
+        // Texture2D에서 Sprite를 생성합니다.
+        Rect rect = new Rect(0, 0, texture.width, texture.height);
+        return Sprite.Create(texture, rect, new Vector2(0.5f, 0.5f));
+    }
+
+    private void FindItemDatabase()
 	{
 		itemDatabases = Resources.LoadAll<ItemDatabase>("Item/ItemDataBase");
 		Debug.Log($"아이템 데이터 베이스 {itemDatabases.Length}개가 인식 되었습니다.");
@@ -70,11 +89,18 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
         InvokeRepeating("SavePlayerWallet", 0.1f, 3.0f);
 	}
 
+    private void OnDisable()
+    {
+        SavePlayerWallet();
+    }
+
     private void SavePlayerWallet()
     {
         PlayerPrefs.SetInt("PlayerWallet_Coin", totalCoin);
 		PlayerPrefs.SetInt("PlayerWallet_Crystal", totalCrystal);
         PlayerPrefs.SetInt("PlayerInventoryExpansion_Level", inventoryExpansionLevel);
+        PlayerPrefs.SetString("PlayerProfileBase64", profilebase64);
+        PlayerPrefs.SetString("PlayerNickname", nickname);
         PlayerPrefs.Save();
 	}
 

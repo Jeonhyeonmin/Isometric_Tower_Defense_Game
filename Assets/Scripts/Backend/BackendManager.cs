@@ -1,7 +1,7 @@
 using BackEnd;
 using UnityEngine;
 
-public class BackendManager : MonoBehaviour
+public class BackendManager : SingletonManager<BackendManager>
 {
     [SerializeField] private GameObject playButton_Group;
     [SerializeField] private GameObject signButton_Group;

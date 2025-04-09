@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using BackEnd;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -301,10 +303,35 @@ public class PhotoEditor : MonoBehaviour
 		// 미리보기 이미지와 프로필 이미지를 설정합니다.
 		previewProfileImage.sprite = SpriteFromTexture2D(profilePhoto);
 		profileImage.sprite = previewProfileImage.sprite;
-		PlayerWalletManager.Instance.profile = profileImage.sprite;
-		// 편집 도구 UI를 비활성화합니다.
-		EditorTool.SetActive(false);
+		PlayerWalletManager.Instance.profile = profileImage.sprite; 
+        SaveTextureToPNG(profilePhoto, "profile.png");
+        // 편집 도구 UI를 비활성화합니다.
+        EditorTool.SetActive(false);
 	}
+	
+	private void SaveTextureToPNG(Texture2D texture, string fileName)
+	{
+		byte[] pngData = texture.EncodeToPNG();
+		string base64Image = Convert.ToBase64String(pngData);
+
+		Param param = new Param();
+		param.Add("profile", base64Image);
+        PlayerWalletManager.Instance.profilebase64 = base64Image;
+        Backend.CloudSave.Upload("User_Profile", param, callback =>
+		{
+			if (callback.IsSuccess())
+			{
+
+				Debug.Log("Profile picture uploaded successfully.");
+                
+
+            }
+			else
+			{
+				Debug.LogError("Failed to upload profile picture: " + callback.GetErrorCode());
+			}
+        });
+    }
 
 	private Sprite SpriteFromTexture2D(Texture2D texture)
 	{
