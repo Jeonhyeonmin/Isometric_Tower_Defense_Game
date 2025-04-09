@@ -3,6 +3,7 @@ using System.Text.RegularExpressions;
 using BackEnd;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
@@ -16,8 +17,9 @@ public class BackendLogin : MonoBehaviour
     [SerializeField] private Button ok_Button;
 
     [SerializeField] private TMP_Text messageText;
+    [SerializeField] private UIManager uIManager;
 
-    bool isLoginMode = true; // 로그인 모드인지 여부
+    bool isLoginMode = false; // 로그인 모드인지 여부
 
     private bool OnValidate
     {
@@ -76,7 +78,7 @@ public class BackendLogin : MonoBehaviour
     private void Awake()
     {
         ok_Button.interactable = true;
-        ok_Button.onClick.AddListener(() => OnClickCustomLogin());
+        OnClickButtonChangeMode();
     }
 
     /// <summary>
@@ -100,6 +102,7 @@ public class BackendLogin : MonoBehaviour
                 Debug.Log("회원가입 성공");
                 ok_Button.interactable = false;
                 UpdateNickname(id_InputField.text);
+                SceneManager.LoadScene("LevelSelect");
             }
             else
             {
@@ -145,6 +148,7 @@ public class BackendLogin : MonoBehaviour
                 messageText.text = "로그인 성공!";
                 Debug.Log("로그인 성공");
                 ok_Button.interactable = false;
+                SceneManager.LoadScene("LevelSelect");
             }
             else
             {
