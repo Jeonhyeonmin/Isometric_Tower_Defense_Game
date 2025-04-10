@@ -435,7 +435,7 @@ public class WeaponManager : MonoBehaviour
     {
         if (PlayerWalletManager.Instance.TotalBrick < currentGunDatabase.guns[currentPageIndex].price)
         {
-            Debug.LogError($"{currentGunDatabase.guns[currentPageIndex].price}개의 브릭 코인이 필요하지만 {PlayerWalletManager.Instance.TotalBrick}개가 필요합니다.");
+            Debug.LogError($"{currentGunDatabase.guns[currentPageIndex].price}개의 브릭 코인이 필요하지만 {PlayerWalletManager.Instance.TotalBrick}개가 있습니다.");
             return;
         }
 
@@ -449,5 +449,7 @@ public class WeaponManager : MonoBehaviour
 
         currentGunDatabase.guns[currentPageIndex].isUnlocking = true;
         Debug.Log($"{currentGunDatabase.guns[currentPageIndex].gunName}인 현재 무기가 잠금해제 되었습니다.");
-	}
+        SettingCurrentPageIndexUI();
+
+    }
 }

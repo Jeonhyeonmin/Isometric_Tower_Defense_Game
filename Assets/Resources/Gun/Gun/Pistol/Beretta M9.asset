@@ -16,6 +16,7 @@ MonoBehaviour:
   gunDescriptionTitle: "\uAE30\uBCF8\uC801\uC73C\uB85C \uC8FC\uC5B4\uC9C0\uB294 \uBB34\uAE30"
   gunDescriptionSubTitle: "\uC2E0\uC18D\uD558\uACE0 \uBE60\uB978 \uB2E8\uBC1C \uC0AC\uACA9\uC774\\n\uAC00\uB2A5\uD55C\uAC04\uB2E8\uD55C
     \uAD8C\uCD1D\uC774\uB2E4."
+  simpleDescription: 
   price: 0
   gunType: 0
   gunIcon: {fileID: 2441493772333087905, guid: 78c07b60ba487624c844d9effac65220, type: 3}
@@ -32,9 +33,15 @@ MonoBehaviour:
   isUnlockGrip: 1
   isUnlockStock: 0
   gunList:
-  - damage: 999654
+  - damage: 12
     fireRate: 2
     magazineSize: 3
+    aimAccuracy: 4
+    effectiveRange: 5
+    moveSpeed: 6
+  - damage: 16
+    fireRate: 1.7
+    magazineSize: 4
     aimAccuracy: 4
     effectiveRange: 5
     moveSpeed: 6

@@ -213,16 +213,21 @@ public class UIManager : MonoBehaviour
 
 		#region Profile
 
-		if (nicknameInputField != null)
+		if (nicknameText != null)
 		{
-			nicknameInputField.onEndEdit.AddListener(ValidateAndSetNickname);
-			urlProfileInputField.onEndEdit.AddListener(ValidationandURLPassing);
+			if (nicknameInputField != null)
+			{
+                nicknameInputField.onEndEdit.AddListener(ValidateAndSetNickname);
+                urlProfileInputField.onEndEdit.AddListener(ValidationandURLPassing);
+            }
 
 			Backend.BMember.GetUserInfo((callback =>
 			{
 				string nickname = callback.GetReturnValuetoJSON()["row"]["nickname"].ToString();
 				nicknameText.text = nickname;
-				nicknameInputField_Hint.text = nickname;
+
+                if (nicknameInputField != null)
+                    nicknameInputField_Hint.text = nickname;
             }));
 
             string base64 = PlayerWalletManager.Instance.profilebase64;
@@ -269,14 +274,15 @@ public class UIManager : MonoBehaviour
 
 		RefreshMenuWallet();
 		RefreshSkillUpgrade();
-
         if (expBar != null)
         {
             float currentExp = PlayerWalletManager.Instance.PlayerExp;
             float maxExp = PlayerWalletManager.Instance.levelChart[PlayerWalletManager.Instance.PlayerLevel - 1].maxExperience;
             expBar.fillAmount = currentExp / maxExp;
-        }
 
+            currentLevel.text = "Lv. " + PlayerWalletManager.Instance.PlayerLevel.ToString();
+            this.currentExp.text = PlayerWalletManager.Instance.PlayerExp.ToString() + " / " + PlayerWalletManager.Instance.levelChart[PlayerWalletManager.Instance.PlayerLevel - 1].maxExperience;
+        }
     }
 
     private void ChangeMusicSprite()
