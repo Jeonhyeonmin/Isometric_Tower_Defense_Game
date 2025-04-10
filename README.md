@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🏰 Tower Defense Game</h1>
-  <p>전략과 성장의 재미를 담은, 타워 디펜스 - 개발 중 - 버그 픽스 중</p>
+  <p>전략과 성장의 재미를 담은, 타워 디펜스 - 시스템 추가 중 - 버그 픽스</p>
   <img src="https://img.shields.io/badge/Unity-6000.0.10f1-black?logo=unity&style=flat-square" alt="Unity Version" />
 </div>
 
@@ -19,7 +19,7 @@
 
 | **범주**            | **내용**                                                                 |
 |---------------------|--------------------------------------------------------------------------|
-| **아키텍처**         | MVC, Singleton, ScriptableObject, Object Pooling                        |
+| **아키텍처**         | MVC, Singleton, ScriptableObject, Object Pooling 등                      |
 | **카메라**           | 아이소메트릭 뷰 카메라 구현                                              |
 | **타워 시스템**      | 타워 설치, 실시간 업그레이드, 철거 및 그리드 배치 관리                    |
 | **전투 시스템**      | 다양한 타워 유형, 공격 패턴 및 범위 기반 전투 구현                         |
