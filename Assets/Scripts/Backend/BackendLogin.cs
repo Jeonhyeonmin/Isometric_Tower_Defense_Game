@@ -103,6 +103,7 @@ public class BackendLogin : MonoBehaviour
                 ok_Button.interactable = false;
                 UpdateNickname(id_InputField.text);
                 SceneManager.LoadScene("LevelSelect");
+                PlayerWalletManager.Instance.LoadLevelChart();
             }
             else
             {
@@ -149,6 +150,7 @@ public class BackendLogin : MonoBehaviour
                 Debug.Log("로그인 성공");
                 ok_Button.interactable = false;
                 SceneManager.LoadScene("LevelSelect");
+                PlayerWalletManager.Instance.LoadLevelChart();
             }
             else
             {

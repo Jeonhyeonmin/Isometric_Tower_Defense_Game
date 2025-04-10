@@ -56,7 +56,10 @@ public class UIManager : MonoBehaviour
 	[SerializeField] private TMP_Text nicknameInputField_Hint;
 	[SerializeField] private TMP_InputField nicknameInputField;
 
-	private Coroutine feedbackCoroutine;
+	[SerializeField] private TMP_Text currentLevel;
+	[SerializeField] private TMP_Text currentExp;
+
+    private Coroutine feedbackCoroutine;
 	[SerializeField] private GameObject feddbackPanel;
 	[SerializeField] private TMP_Text feedbackText;
 	private string nickname;

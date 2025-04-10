@@ -1,7 +1,21 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using BackEnd;
+using BackEnd.BackndLitJson;
+using LitJson;
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.UI;
+
+[System.Serializable]
+public class LevelChartData
+{
+    public int level;
+    public int maxExperience;
+    public int rewardGold;
+}
+
 
 public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
 {
@@ -14,8 +28,84 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
     [SerializeField] private int totalBrick;
 
     [SerializeField] private int inventoryExpansionLevel = 1;
+    [SerializeField] private int playerLevel;
+    [SerializeField] private float playerExp;
 
-	private ItemDatabase[] itemDatabases;
+    private readonly string LEVEL_CHART = "174725";
+
+    public List<LevelChartData> levelChart;
+
+    public PlayerWalletManager()
+    {
+        levelChart = new List<LevelChartData>();
+    }
+
+    public void LoadLevelChart()
+    {
+        Backend.Chart.GetChartContents(LEVEL_CHART, callback =>
+        {
+            if (callback.IsSuccess())
+            {
+                // JSON 데이터 파싱
+                try
+                {
+                    LitJson.JsonData json = callback.FlattenRows();
+
+                    if (json.Count <= 0)
+                    {
+                        Debug.LogWarning("No data found in the chart.");
+                    }
+                    else
+                    {
+                        for (int i = 0; i < json.Count; ++i)
+                        {
+                            LevelChartData newChart = new LevelChartData();
+                            newChart.level = int.Parse(json[i]["level"].ToString());
+                            newChart.maxExperience = int.Parse(json[i]["maxExperience"].ToString());
+                            newChart.rewardGold = int.Parse(json[i]["rewardGold"].ToString());
+
+                            levelChart.Add(newChart);
+
+                            Debug.Log($"Level : {newChart.level}, Max Exp : {newChart.maxExperience}" +
+                                $"Reward Gold : {newChart.rewardGold}"); 
+                        }
+                    }
+                }
+                catch (System.Exception e)
+                {
+                    Debug.LogError("Error parsing JSON data: " + e.Message);
+                }
+            }
+            else
+            {
+                Debug.LogError("Failed to load level chart: " + callback.GetErrorCode());
+            }
+        });
+    }
+
+    private readonly int increaseExperience = 250;
+
+    public void Process()
+    {
+        int currentLevel = playerLevel;
+
+        playerExp += increaseExperience;
+
+        if (playerExp >= levelChart[playerLevel-1].maxExperience &&
+            levelChart.Count > playerLevel)
+        {
+            // 레벨업 보상 지급
+            totalCoin += levelChart[playerLevel - 1].rewardGold;
+            playerExp = 0;
+            playerLevel++;
+            Debug.Log($"레벨업! 현재 레벨 : {playerLevel}");
+        }
+
+        PlayerPrefs.Save();
+    }
+
+
+    private ItemDatabase[] itemDatabases;
 
 	public int TotalCoin
     {
@@ -44,6 +134,18 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
         get => itemDatabases; set => itemDatabases = value;
     }
 
+    public int PlayerLevel
+    {
+        get => playerLevel;
+        set => playerLevel = Mathf.Clamp(value, 1, 100);    // 레벨 수정 필요 (서버 연동)
+    }
+
+    public float PlayerExp
+    {
+        get => playerExp;
+        set => playerExp = Mathf.Clamp(value, 0, 100);    // 경험치 수정 필요 (서버 연동)
+    }
+
 	private void Awake()
 	{
         totalCoin = PlayerPrefs.GetInt("PlayerWallet_Coin");
@@ -51,6 +153,8 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
         inventoryExpansionLevel = PlayerPrefs.GetInt("PlayerInventoryExpansion_Level");
         profilebase64 = PlayerPrefs.GetString("PlayerProfileBase64");
         nickname = PlayerPrefs.GetString("PlayerNickname");
+        playerLevel = PlayerPrefs.GetInt("PlayerLevel");
+        playerExp = PlayerPrefs.GetFloat("PlayerExp");
 
         string base64 = profilebase64;
         byte[] imageBytes = Convert.FromBase64String(base64);
@@ -101,6 +205,8 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
         PlayerPrefs.SetInt("PlayerInventoryExpansion_Level", inventoryExpansionLevel);
         PlayerPrefs.SetString("PlayerProfileBase64", profilebase64);
         PlayerPrefs.SetString("PlayerNickname", nickname);
+        PlayerPrefs.SetInt("PlayerLevel", playerLevel);
+        PlayerPrefs.SetFloat("PlayerExp", playerExp);
         PlayerPrefs.Save();
 	}
 
