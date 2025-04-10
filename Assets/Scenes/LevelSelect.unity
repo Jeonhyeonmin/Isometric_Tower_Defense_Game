@@ -24722,6 +24722,9 @@ MonoBehaviour:
   nicknameText: {fileID: 2143204054}
   nicknameInputField_Hint: {fileID: 1357007769}
   nicknameInputField: {fileID: 412083379}
+  currentLevel: {fileID: 300790252}
+  currentExp: {fileID: 2031437723}
+  expBar: {fileID: 1539572850}
   feddbackPanel: {fileID: 1772332480}
   feedbackText: {fileID: 670332681}
   phoneNumber: 01068024032

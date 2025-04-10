@@ -58,6 +58,7 @@ public class UIManager : MonoBehaviour
 
 	[SerializeField] private TMP_Text currentLevel;
 	[SerializeField] private TMP_Text currentExp;
+	[SerializeField] private Image expBar;
 
     private Coroutine feedbackCoroutine;
 	[SerializeField] private GameObject feddbackPanel;
@@ -177,9 +178,11 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
 	{
-		#region Music 
+		PlayerWalletManager.Instance.VirtualAwake();
 
-		if (music_AudioSource == null)
+        #region Music 
+
+        if (music_AudioSource == null)
 		{
 			isPlayMusic = false;
 		}
@@ -228,6 +231,9 @@ public class UIManager : MonoBehaviour
             texture.LoadImage(imageBytes);
 
             profileImage.sprite = SpriteFromTexture2D(texture);
+
+			currentLevel.text = "Lv. " + PlayerWalletManager.Instance.PlayerLevel.ToString();
+            currentExp.text = PlayerWalletManager.Instance.PlayerExp.ToString() + " / " + PlayerWalletManager.Instance.levelChart[PlayerWalletManager.Instance.PlayerLevel-1].maxExperience;
         }
 
 		#endregion
@@ -263,9 +269,17 @@ public class UIManager : MonoBehaviour
 
 		RefreshMenuWallet();
 		RefreshSkillUpgrade();
-	}
 
-	private void ChangeMusicSprite()
+        if (expBar != null)
+        {
+            float currentExp = PlayerWalletManager.Instance.PlayerExp;
+            float maxExp = PlayerWalletManager.Instance.levelChart[PlayerWalletManager.Instance.PlayerLevel - 1].maxExperience;
+            expBar.fillAmount = currentExp / maxExp;
+        }
+
+    }
+
+    private void ChangeMusicSprite()
 	{
 		if (musicButton == null)
 			return;

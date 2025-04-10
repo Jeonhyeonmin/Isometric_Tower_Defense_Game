@@ -28,7 +28,7 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
     [SerializeField] private int totalBrick;
 
     [SerializeField] private int inventoryExpansionLevel = 1;
-    [SerializeField] private int playerLevel;
+    [SerializeField] private int playerLevel = 1;
     [SerializeField] private float playerExp;
 
     private readonly string LEVEL_CHART = "174725";
@@ -146,7 +146,7 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
         set => playerExp = Mathf.Clamp(value, 0, 100);    // 경험치 수정 필요 (서버 연동)
     }
 
-	private void Awake()
+	public void VirtualAwake()
 	{
         totalCoin = PlayerPrefs.GetInt("PlayerWallet_Coin");
         totalCrystal = PlayerPrefs.GetInt("PlayerWallet_Crystal");
@@ -156,16 +156,29 @@ public class PlayerWalletManager : SingletonManager<PlayerWalletManager>
         playerLevel = PlayerPrefs.GetInt("PlayerLevel");
         playerExp = PlayerPrefs.GetFloat("PlayerExp");
 
-        string base64 = profilebase64;
-        byte[] imageBytes = Convert.FromBase64String(base64);
-        Texture2D texture = new Texture2D(2, 2);
-        texture.LoadImage(imageBytes);
-        Debug.Log(base64);
+        if (profile != null)
+        {
+            string base64 = profilebase64;
+            byte[] imageBytes = Convert.FromBase64String(base64);
+            Texture2D texture = new Texture2D(2, 2);
+            texture.LoadImage(imageBytes);
+            Debug.Log(base64);
 
-        profile = SpriteFromTexture2D(texture);
+            profile = SpriteFromTexture2D(texture);
+        }
+        
 
         FindItemDatabase();
 	}
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F5))
+        {
+            playerExp += 50;
+            Process();
+        }
+    }
 
     private Sprite SpriteFromTexture2D(Texture2D texture)
     {
